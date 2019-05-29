@@ -1,0 +1,65 @@
+*,html,body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: darkblue;
+   height: 100px;
+   line-height: 100px;
+}
+header nav{
+    /* float: right; */
+}
+nav ul{
+    list-style: none;
+    float: right;
+    margin: 0;
+    padding: 0;
+}
+ul li{
+    text-decoration: none;
+    display: inline-block;
+    /* float: left; */
+    /* height: 30px;
+    width: 90px;
+    line-height: 20px; */
+}
+ul li a{
+    display: block;
+    color: black;
+    margin-right: 30px;
+    font-weight: bold;
+    transition: all 0.5s; 
+    text-decoration: none;
+}
+ul li ul li{
+    display: none;
+}
+ul li:hover ul li{
+    display: block;
+}
+ul li a:hover{
+    text-decoration: none;
+    color: gray;
+    transition: all 0.5s; 
+
+}
+/* .logo img{
+  margin-top: 5px;
+} */
+
+.img1{
+    background-image: url(../images/armenia_yenokavan_lastiver_hayk-wallpaper-1366x768.jpg);
+    background-size:cover;
+    overflow: hidden;
+}
+.slider, .slider ul,.slider ul li{
+    height: 550px;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+
+.h{
+    height: 500px;
+}
